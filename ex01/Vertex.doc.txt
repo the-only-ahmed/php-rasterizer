@@ -1,0 +1,32 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles Vertex.
+
+An instance can be contructed from either coordonate (x, y, z, w [optional]) and a class color
+[optional]:
+new Vertex( array( 'x' => 1, 'y' => 1, 'z' => 1, 'w' => 1, new Color (See doc
+color class) ) );
+
+The class provides the following methods :
+
+GetX
+For have the x value.
+GetY
+For have the y value.
+GetZ
+For have the z value.
+GetW
+For have the w value.
+GetColor
+For have the Color value.
+
+SetX
+For change the x value.
+SetY
+For change the y value.
+SetZ
+For change the z value.
+SetW
+For change the w value.
+SetColor
+For change the Color value.
+---------------------------------------------------------------------- Vertex ->

@@ -1,0 +1,55 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles Vertex.
+
+An instance can be contructed from either coordonate (x, y, z, w [optional]) and a class color
+[optional]:
+new Vertex( array( 'x' => 1, 'y' => 1, 'z' => 1, 'w' => 1, new Color (See doc
+color class) ) );
+
+The class provides the following methods :
+
+GetX
+For have the x value.
+GetY
+For have the y value.
+GetZ
+For have the z value.
+GetW
+For have the w value.
+GetColor
+For have the Color value.
+
+magnitude
+Return the magnitude of the vector's instance.
+
+normalize
+Return the normalization of the vector's instance.
+
+add
+Return the addition of the vector's instance and the vector's param. (Take a
+vector in param)
+
+sub
+Return the sub of the vector's instance and the vector's param. (Take a vector
+in param)
+
+opposite
+Return the opposite of the vector's instance.
+
+scalarProduct
+Return the scalar product of the vector's instance, by the variable param. (Take
+a variable in param)
+
+dotProduct
+Return the dot product of the vector's instance by the vector's param. (Take a
+vector in param.)
+
+cos
+Return the cosinus of the vector's param by the vector's instance. (Take a
+vector in param)
+
+crossProduct
+Return the cross product (Right Hand) of the vector's instance by the
+vector's param. (Take a vector in param)
+
+---------------------------------------------------------------------- Vertex ->

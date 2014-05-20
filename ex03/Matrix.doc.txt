@@ -1,0 +1,15 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles Vertex.
+
+An instance can be contructed from either coordonate (preset, transformations params) both are necessary
+[optional]:
+new Matrix( array( 'preset' => tramsformatiom[RX, RY, RZ, SCALE, IDENTITY, TRANSLATION, PROJECTIOMN], 'name of the parameter' => it's value) ) );
+
+The class provides the following methods :
+
++mult(Matrix $mat):
+	function that multiplies the actual Matrix with a another matrix and send as result a brand new Matrix.
+
++transformVertex($ver):
+	function that apply a transformation (rotation, translation, scale or projection) for a Vertex recieved as parameter and send as result a brand new Vertex;
+---------------------------------------------------------------------- Vertex ->
